@@ -113,6 +113,6 @@ func CalculateScore(score int, total int) {
 	} else if score == 5 {
 		fmt.Println("💻 Niveau : Développeur en progression")
 	} else {
-		fmt.Println("🤯 Niveau : Cyber Mastermind")
+		fmt.Println("🤯 Niveau : Développeur confirmé")
 	}
 }
