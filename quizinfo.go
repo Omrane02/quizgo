@@ -4,7 +4,7 @@ import "fmt"
 
 func StartQuizInfo() {
 	fmt.Println("=== Quiz Informatique ===")
-	fmt.Println("=== Quiz Informatique Générale ===")
+
 
 	totalQuestions := 10
 	score := 0
@@ -97,7 +97,7 @@ func CheckAnswer(correctAnswer int) bool {
 	fmt.Scan(&userAnswer)
 
 	if userAnswer == correctAnswer {
-		fmt.Println("✅ Correct !")
+		fmt.Println("✅ Bonne réponse !")
 		return true
 	} else {
 		fmt.Println("❌ Mauvaise réponse.")
