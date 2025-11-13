@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func StartQuizInfo() {
-	fmt.Println("=== Quiz Informatique ===")
+	fmt.Println("――――― Quiz Informatique ―――――")
 
 
 	totalQuestions := 10
