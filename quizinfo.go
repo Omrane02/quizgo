@@ -93,7 +93,7 @@ func StartQuizInfo() {
 
 func CheckAnswer(correctAnswer int) bool {
 	var userAnswer int
-	fmt.Print("Ta réponse (numéro) : ")
+	fmt.Print("Réponse : ")
 	fmt.Scan(&userAnswer)
 
 	if userAnswer == correctAnswer {
