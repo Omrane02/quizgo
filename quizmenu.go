@@ -19,6 +19,6 @@ func ShowMenu() {
 	} else if choice == 3 {
 		StartQuizIAData()
 	} else {
-		fmt.Println("Merci d'avoir joué 👋")
+		fmt.Println("A bientot 👋")
 	}
 }
