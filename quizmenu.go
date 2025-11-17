@@ -8,6 +8,7 @@ func ShowMenu() {
 	fmt.Println("1. Informatique")
 	fmt.Println("2. Cybersécurité")
 	fmt.Println("3. Data / IA")
+	fmt.Println("4. Section Entraînement")
 	fmt.Println("0. Quitter")
 	fmt.Print("Choix : ")
 	fmt.Scan(&choice)
@@ -18,6 +19,8 @@ func ShowMenu() {
 		StartQuizCyber()
 	} else if choice == 3 {
 		StartQuizIAData()
+	} else if choice == 4 {
+		SectionEntrainement()
 	} else {
 		fmt.Println("A bientot👋")
 	}
